@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-new-3
+  description: A python hello world application named python-app-new-3 running in dev environment
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: learners-codetree/python-app-new-3
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
